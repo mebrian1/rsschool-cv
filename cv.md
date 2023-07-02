@@ -6,6 +6,7 @@ I have no experience in an IT company, but I have a great desire and determinati
 Start of training in the field of front-end (to be continued)
 
 Codewars test
+
 public class CustomMath {
     public static int multiply(int a, int b) {
         return a*b;
