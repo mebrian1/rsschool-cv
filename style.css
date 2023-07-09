@@ -1,4 +1,12 @@
-p {
-    color: red;
-    text-align: center;
+body {
+  font-family: 'Agdasima', sans-serif;
+  font-family: 'Bacasime Antique', serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .main {
+    border: 1px solid red;
   }
