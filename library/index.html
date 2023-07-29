@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter&display=swap" rel="stylesheet">
+    <title>Den Library</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Brooklyn Public Library</h1>
+        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href=#about class="nav-link">About</a></li>
+                <li><a href=#favorites class="nav-link">Favorites</a></li>
+                <li><a href=#coffee-shop class="nav-link">Coffee Shop</a></li>
+                <li><a href=#contacts class="nav-link">Contacts</a></li>
+                <li><a href=#cards class="nav-link">Library Card</a></li>
+            </ul>
+        </nav>
+        <img src="/images/icon_profile.svg" alt="" class="icon">
+    </header>
+    <main>
+        <section id="roof" class="roof">
+            <div class="overlay">
+                <div class="welcome-part">
+                    <p class="brooklyn">WELCOME
+                        <br>TO THE BROOKLYN
+                        <br>LIBRARY
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <div class="line-h2"></div>
+            <p>The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside</p>
+            <div class="images">
+                <img src="images/image 1.jpg" alt="">
+                <img src="images/image 2.jpg" alt="">
+                <img src="images/image 3.jpg" alt="">
+            </div>
+            <div class="all_dote">
+                <a href="#123">
+                    <div class="dote"></div>
+                </a>
+                <a href="#123">
+                    <div class="dote"></div>
+                </a>
+                <a href="#123">
+                    <div class="dote"></div>
+                </a>
+            </div>
+        </section>
+        <section id="favorites">
+            <h2>Favorites</h2>
+            <div class="line-h2"></div>
+            <p class="pick-fav">Pick favorites of season</p>
+            <div class="radio_fav">
+                <button id="radio-winter" type="radio" name="radio" value="1" checked></button>
+                <label for="radio-winter">Winter</label>
+                <button id="radio-spring" type="radio" name="radio" value="1" checked></button>
+                <label for="radio-spring">Spring</label>
+                <button id="radio-summer" type="radio" name="radio" value="1" checked></button>
+                <label for="radio-summer">Summer</label>
+                <button id="radio-autumn" type="radio" name="radio" value="1" checked></button>
+                <label for="radio-autumn">Autumn</label>
+            </div>
+            <div class="all_books">
+                <div class="one_book_fav">
+                    <div class="book_parag">
+                        <p class="staff">Staff picks</p>
+                        <div class="line"></div>
+                        <p class="name_book">THE BOOK EATERS
+                            <br>By Sunyi Dean
+                        </p>
+                        <p>An unusual sci-fi story about a book eater woman who tries desperately to save her dangerous
+                            mind-eater son from tradition and certain death.
+                            Complete with dysfunctional family values, light Sapphic romance, and a strong, complex
+                            protagonist. Not for the faint of heart.</p>
+                        <button id="buy_button" type="button" name="button" value="Buy" checked>Buy</button>
+                    </div>
+                    <img src="images/book.jpg" alt="">
+                </div>
+                <div class="one_book_fav">
+                    <div class="book_parag">
+                        <p class="staff">Staff picks</p>
+                        <div class="line"></div>
+                        <p class="name_book">CACKLE
+                            <br>By Rachel Harrison
+                        </p>
+                        <p>Are your Halloween movies of choice The Witches of Eastwick and Practical Magic?
+                            Look no further than here - where a woman recovering from a breakup moves to a quaint town
+                            in upstate New York and befriends a beautiful witch.</p>
+                        <button id="buy_button" type="button" name="button" value="Buy" checked>Buy</button>
+                    </div>
+                    <img src="images/book-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="all_books">
+                <div class="one_book_fav">
+                    <div class="book_parag">
+                        <p class="staff">Staff picks</p>
+                        <div class="line"></div>
+                        <p class="name_book">DANTE: POET OF THE SECULAR WORLD
+                            <br>By Erich Auerbach
+                        </p>
+                        <p>Auerbach's engaging book places the 'Comedy' within the tradition of epic, tragedy,
+                            and philosophy in general, arguing for Dante's uniqueness as one who raised the individual
+                            and his drama of soul into something of divine significance—an inspired introduction to
+                            Dante's main themes.</p>
+                    </div>
+                    <button id="buy_button" type="button" name="button" value="Buy" checked>Buy</button>
+                    <img src="images/book-3.jpg" alt="">
+                </div>
+                <div class="one_book_fav">
+                    <div class="book_parag">
+                        <p class="staff">Staff picks</p>
+                        <div class="line"></div>
+                        <p class="name_book">THE LAST QUEEN
+                            <br>By Clive Irving
+                        </p>
+                        <p>A timely and revelatory new biography of Queen Elizabeth (and her family) exploring how the
+                            Windsors
+                            have evolved and thrived as the modern world has changed around them.</p>
+                    </div>
+                    <button disabled id="buy_button" type="button" name="button" value="Own" checked >Own</button>
+                    <img src="images/book-4.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="coffee-shop">
+            <h2>Coffee Shop</h2>
+            <div class="line-h2"></div>
+            <p class="cof-text">In our library, we have of cozy coffee shop, welcoming in customers with frothy
+                cappuccinos and friendly conversation.
+                you can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also you
+                can try desserts
+                <br>from bakery.
+            </p>
+            <div>
+                <div class="coffee-desert">
+                    <table>
+                        <caption class="coffee-tea">
+                            Coffee & Tea
+                        </caption>
+                        <tbody class="coffee_table">
+                            <tr>
+                                <th scope="row" class="col">Cold Brew Coffee</th>
+                                <td>
+                                    <hr>
+                                </td>
+                                <td class="col">3$</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">French Press Pot</th>
+                                <td>
+                                    <hr>
+                                </td>
+                                <td class="col">5$</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Espresso</th>
+                                <td>
+                                    <hr>
+                                </td>
+                                <td class="col">2$</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Cappuccino</th>
+                                <td>
+                                    <hr>
+                                </td>
+                                <td class="col">4$</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Hot Tea</th>
+                                <td>
+                                    <hr>
+                                </td>
+                                <td class="col">2$</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Cold Tea</th>
+                                <td>
+                                    <hr>
+                                </td>
+                                <td class="col">2$</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <caption class="desert">
+                            Desserts & Cakes
+                        </caption>
+                        <tbody class="desert_table">
+                            <tr>
+                                <th scope="row">Forest Gateau</th>
+                                <td>
+                                    <hr>
+                                </td>
+                                <td>16$</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Blue Moon</th>
+                                <td>
+                                    <hr>
+                                </td>
+                                <td>16$</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Truffle Cake</th>
+                                <td>
+                                    <hr>
+                                </td>
+                                <td>15$</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Chocolate Cake</th>
+                                <td>
+                                    <hr>
+                                </td>
+                                <td>18$</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Poet’s Dream Cake</th>
+                                <td>
+                                    <hr>
+                                </td>
+                                <td>16$</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Pineapple Cake</th>
+                                <td>
+                                    <hr>
+                                </td>
+                                <td>14$</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section id="contacts">
+            <h2>Our Contacts</h2>
+            <div class="line-h2"></div>
+            <div class="contacts">
+                <div class="contact-info">
+                    <p><span>For all Library inquiries:</span></p>
+                    <p>Please call <a href="tel: (617) 730-2370" class="tel">(617) 730-2370</a></p>
+                    <p>For TTY service, please call <a href="tel: (617) 730-2370" class="tel">(617) 730-2370</a></p>
+                    <p>Putterham Library: <a href="tel: (617) 730-2385" class="tel">(617) 730-2385</a></p>
+                    <p><span>Senior Staff</span></p>
+                    <p>Library Director: <span class=""><a href="mailto: AmandaHirst@gmail.com" class="mail">Amanda Hirst</a></span></p>
+                </div>
+                <div class="map" style="position:relative;overflow:hidden;"><a
+                        href="https://yandex.ru/maps/10502/paris/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Париж</a><a
+                        href="https://yandex.ru/maps/10502/paris/?ll=2.347042%2C48.858823&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxODAwMjIzMzA4Eg1GcmFuY2UsIFBhcmlzIgoN7X8WQBU5bUNC&utm_medium=mapframe&utm_source=maps&z=12.42"
+                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Париж — Яндекс Карты</a><iframe
+                        src="https://yandex.ru/map-widget/v1/?ll=2.347042%2C48.858823&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxODAwMjIzMzA4Eg1GcmFuY2UsIFBhcmlzIgoN7X8WQBU5bUNC&z=12.42"
+                        width="560" height="400" frameborder="1" allowfullscreen="true"
+                        style="position:relative;"></iframe></div>
+            </div>
+        </section>
+        <section id="cards">
+            <h2>Digital Library Cards</h2>
+            <div class="line-h2"></div>
+            <div class="library-cards">
+                <div class="library-form">
+                    <p>Find your Library card</p>
+                    <div class="card-border">
+                        <div class="card-input">
+                            <p>Brooklyn Public Library</p>
+                            <input class="text-input" type="text" name="reader-name" id="reader-name"
+                                placeholder="Reader's name" value="">
+                            <input class="text-input" type="text" name="card-number" id="card-number"
+                                placeholder="Card number" value="">
+                        </div>
+                        <button id="check_button" type="button" name="button" value="Check the card" checked>Check the
+                            card</button>
+                    </div>
+                </div>
+                <div class="log-form">
+                    <p class="title-log">Get a reader card</p>
+                    <p class="text-log">You will be able to see a reader card after
+                        <br>logging into account or you can register a new
+                        <br>account
+                    </p>
+                    <button id="sign_button" type="button" name="sign-up" value="Sign up" checked>Sign up</button>
+                    <button id="sign_button" type="button" name="log-in" value="Log in" checked>Log in</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="social-date">
+            <div class="social">
+                <p><a href="https://goo.gl/maps/C6EEfFrTcfULz1h79" class="address">286 Cadman Plaza, New York,
+                        <br>NY 11238, United States</a>
+                </p>
+                <div>
+                    <ul class="social-list">
+                        <li><a href=https://twitter.com class="social-link"><img src="/images/twitter.svg"></a></li>
+                        <li><a href=https://www.facebook.com class="social-link"><img src="/images/facebook.svg"></a>
+                        </li>
+                        <li><a href=https://www.instagram.com class="social-link"><img src="/images/instagram.svg"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="date">
+                <p>Mon - Fri
+                    <br>08:00 am - 07:00 pm
+                </p>
+                <p>
+                    Sat - Sun
+                    <br>10:00 am - 06:00 pm
+                </p>
+            </div>
+        </div>
+        <div class="bye-info">
+            <p>2023</p>
+            <p><a href="https://rs.school/js-stage0/" class="username">The Rolling Scopes School</a></p>
+            <p><a href="https://github.com/mebrian1" class="username">Denis</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
