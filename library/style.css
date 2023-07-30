@@ -247,7 +247,7 @@ text-align: left;
     text-align: left;
 }
 
-#buy_button {
+#buy_button1, #buy_button2, #buy_button3, #buy_button4 {
     position: absolute;
     bottom: 10px;
     width: 75px;
@@ -259,7 +259,8 @@ text-align: left;
     transition: all .3s linear;
 }
 
-#buy_button:hover, #check_button:hover, #sign_button:hover {
+#buy_button1:hover, #buy_button2:hover, #buy_button3:hover, #buy_button4:hover,
+ #check_button:hover, #sign_button1:hover, #sign_button2:hover {
     background: #BB945F;
     transition: all .3s linear;
 }
@@ -455,7 +456,7 @@ letter-spacing: 0.02em;
 text-align: right;
 }
 
-#sign_button {
+#sign_button1, #sign_button2  {
     width:75px;
 height:30px;
 border-radius: 2px;
@@ -524,7 +525,7 @@ color: #FFFFFF;
     text-decoration: none;
 }
 
-#buy_button:disabled {
+#buy_button4:disabled {
     border: 1px solid black;
     background-color: grey;
     color: white;
